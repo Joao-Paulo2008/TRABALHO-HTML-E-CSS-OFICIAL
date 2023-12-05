@@ -1,0 +1,169 @@
+.fundo1{
+    background: url(imgs/f651ae50-ad3a-11ed-9059-2d5a35796017--minified.jpg);
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+ 
+.logo1{
+    height: 570px;
+}
+
+.botao1{
+    height: 70px;
+    
+    
+}
+
+.b1{
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+
+.botao2{
+    height: 70px;
+}
+
+.b2{
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+
+.drielso{
+   background-color: black;
+}
+
+.drielso2{
+    background-color: black;
+}
+
+.b3{
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+
+.botao3{
+    height: 74px;
+}
+
+.drielso3{
+    background-color: black;
+}
+
+
+.imagens-fundo{
+    max-width: 25%;  
+    height: 300px;
+   
+position: relative;
+align-items: center;
+justify-content: center;
+    left: 72%;
+    bottom: 400px;
+ overflow: hidden;
+}
+
+
+.container-imgs {
+    overflow-x: auto;
+}
+
+.container-imgs::-webkit-scrollbar{
+    display: none;
+}
+
+.imgs {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 100px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 0;
+    right: auto;
+    left: 28%;
+   width: 40px;
+   height: 40px;
+    cursor: pointer;
+    background: url(imgs/WhatsApp\ Image\ 2023-11-28\ at\ 08.26.55.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 600ms ease-in-out;
+}
+
+.btn:hover{
+    opacity: 1.0;
+}
+
+.btn3{
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 265px;
+    left: 150px;
+}
+
+.btn3 img{
+    width: 60px;
+}
+
+.direita {
+    right: 28%;
+    left: auto;
+    background: url(imgs/WhatsApp\ Image\ 2023-11-28\ at\ 08.26.55.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.img {
+    width: 100px;
+    height: 200px;
+    flex-shrink: 0;
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+}
+
+.partida {
+    opacity: 1.0;    
+    width: 125px;
+    height: 250px;
+    bottom: 20px;
+    position: relative;
+}
+
+
+ footer {
+    padding: 15px;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 900;
+ }
+
+ 

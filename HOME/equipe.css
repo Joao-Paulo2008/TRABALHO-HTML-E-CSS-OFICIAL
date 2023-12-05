@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.fundo2{
+    background: rgba(3,0,12,0.7) url(imgs/R\ \(2\).png);
+    background-blend-mode:darken ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    border-left: #383838 28px solid;
+    border-top: #ece5eb 28px solid;
+
+}
+
+.mine{
+    position: relative;
+    left: -30px;
+}
+
+.moeda{
+    position: relative;
+ bottom: 30px;
+ left: 450px;
+}
+ 
+.menu i{
+   font-size: 30px;
+position: relative;
+left: -30px;
+bottom: 340px;
+cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+ 
+}
+
+.navbar ul li{
+    text-align: center;
+}
+
+
+.navbar ul ul{
+display: none;
+bottom: 230px;
+position: absolute;
+
+transition: .5s;
+
+}
+
+.navbar ul ul a:hover{
+background: crimson;
+   
+}
+
+
+
+
+
+.navbar ul{
+list-style-type: none;
+padding: 0;
+text-decoration: none;
+font-family: 'Russo One', sans-serif;
+}
+
+.navbar .menu:hover ul {
+    display: block;
+
+}
+
+.navbar ul ul{
+    width: 150px;
+}
+
+.navbar ul ul li a{
+    display: block;
+}
+
+.imagem-menu{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+    left: -2px;
+}
+
+.parte1{
+   
+    width: 100%;
+    height: 50vh;
+}
+
+
+
+
+
+.card{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.equipe{
+
+    width: 170px;
+    height: 37vh;
+position: absolute;
+   bottom: 370px; 
+   left: 48%;
+    border-radius: 25px;
+ overflow: hidden;
+}
+
+.cidadoes{
+   width: 50%;
+   height: 230px;
+     display: flex;
+
+ }
+
+
+
+
+.parte2{
+    position: absolute;
+    top: 380px;
+     
+        width: 100%;
+        height: 50vh;
+    
+}
+
+
+.imagens-fundo{
+    max-width: 70%;  
+position: relative;
+align-items: center;
+justify-content: center;
+    left: 22%;
+    top: 30px;
+ overflow: hidden;
+}
+
+
+.container-imgs {
+    overflow-x: auto;
+}
+
+.container-imgs::-webkit-scrollbar{
+    display: none;
+}
+
+.imgs {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 100px;
+}
+
+.btn {
+    position: absolute;
+    top: 40%;
+    right: auto;
+    left: 350px;
+   width: 40px;
+   height: 40px;
+    cursor: pointer;
+    background: url(imgs/WhatsApp\ Image\ 2023-11-28\ at\ 08.26.55.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 600ms ease-in-out;
+}
+
+.btn:hover{
+    opacity: 1.0;
+}
+
+.direita {
+    right: 450px;
+    left: auto;
+    background: url(imgs/WhatsApp\ Image\ 2023-11-28\ at\ 08.26.55.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.img {
+    width: 100px;
+    height: 200px;
+    flex-shrink: 0;
+    opacity: 0.5;
+    transition: all 600ms ease-in-out;
+}
+
+.partida {
+    opacity: 1.0;    
+    width: 125px;
+    height: 250px;
+    bottom: 20px;
+    position: relative;
+}
+
+
+ footer {
+    padding: 15px;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 900;
+ }
+
+ 

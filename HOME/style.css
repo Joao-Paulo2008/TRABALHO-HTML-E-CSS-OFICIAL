@@ -1,0 +1,348 @@
+/*IMPORTES*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+
+
+
+/*FUNDO DO SITE*/
+.fundo1{
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-color: #201b2c;
+    
+}
+
+/*CABEÇALHO*/
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+    background: url(imgs/b9801bd6a58f2b41de16677025da5d03.jpg);
+}
+/*LOGO*/
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    right: 150px;
+}
+
+
+/*MENU*/
+.conteudocab{
+align-items: center;
+    display: flex;
+    gap: 32px;
+    left: 200px;
+    position: relative;
+    color: white;
+}
+
+.menu {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    font-family: 'Russo One', sans-serif;
+
+}
+.menu2{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 3px;
+    font-family: 'Russo One', sans-serif;
+}
+
+/*SUB MENU*/
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+ 
+}
+
+.navbar ul li{
+    text-align: center;
+}
+
+
+.navbar ul ul{
+display: none;
+left: 70px;
+position: absolute;
+border: 1px solid;
+transition: .5s;
+
+}
+
+.navbar ul ul a:hover{
+background: crimson;
+   
+}
+
+
+
+.menu2:hover{
+    color: rgb(30, 179, 62);
+
+}
+
+.seta{
+    transition: .5s;
+}
+
+.menu2:hover > .seta{
+    -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  color: rgb(30, 179, 62);
+}
+
+.navbar ul{
+list-style-type: none;
+padding: 0;
+text-decoration: none;
+}
+
+.navbar ul li:hover ul{
+    display: block;
+
+}
+
+.navbar ul ul{
+    width: 150px;
+}
+
+.navbar ul ul li a{
+    display: block;
+}
+
+.imagem-menu{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+    left: -2px;
+}
+
+
+
+/*BARRA DE PESQUISA*/
+
+.barra-pesquisa{
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    transition: .5s;
+
+}
+
+.barra-pesquisa .lupa, .barra-pesquisa .fechar{
+   min-width: 30px; 
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+
+}
+
+.barra-pesquisa .lupa i{
+    font-size: 20px;
+color: #200b45;
+}
+
+
+
+.barra-pesquisa .fechar i{
+    color: #200b45;
+    font-size: 20px;
+}
+
+.barra-pesquisa .txt-pesquisa{
+    position: absolute;
+    left: 36px;
+    width: calc(100% - 120px);
+    height: 100%;
+    line-height: 25px;
+    
+}
+
+.barra-pesquisa .txt-pesquisa input{
+border: none;
+outline: none;
+font-size: 10px;
+background: aliceblue;
+
+}
+
+.barra-pesquisa.ativar{
+width: 200px;
+}
+
+/*texto interativos*/
+
+.conteudo-site{
+position: absolute;
+margin-left: 140px;
+margin-top: 130px;
+
+font-family: 'Pixelify Sans', sans-serif;
+}
+
+.conteudo-site h1{
+    position: relative;
+    color: #77ffc0;
+
+}
+
+.conteudo-site h2{
+    color: #77ffc0;
+    
+}
+
+.conteudo-site p{
+color: #77ffc0;
+
+}
+
+.conteudo-site h3{
+    color: #77ffc0;
+}
+
+.btn-um{
+    position: relative;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+    width: 120px;
+    background: rgb(111, 166, 111);
+    color: aliceblue;
+border-radius: 10px;
+}
+
+.btn-dois{
+    position: relative;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+    width: 120px;
+    background: rgb(111, 166, 111);
+    color: aliceblue;
+border-radius: 10px;
+top: 40px;
+left: -125px;
+}
+
+
+/*slide de imagems interetivas*/
+
+.imagens-fundo{
+    background: #2f2841;
+    max-width: 30%;
+    height: 50vh;
+position: relative;
+    left: 55%;
+    top: 160px;
+    border-radius: 25px;
+ overflow: hidden;
+}
+
+
+.container-imgs {
+    overflow-x: auto;
+}
+
+.container-imgs::-webkit-scrollbar{
+    display: none;
+}
+
+.imgs {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+}
+
+.btn {
+    position: absolute;
+    top: 45%;
+    right: auto;
+    left: 10px;
+   width: 40px;
+   height: 40px;
+    cursor: pointer;
+    background: url(imgs/marcador-da-relação-do-ícone-do-ponteiro-de-seta-do-pixel-96054434.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    transition: all 600ms ease-in-out;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    opacity: 1.0;
+}
+
+.direita {
+    right: 10px;
+    left: auto;
+    background: url(imgs/marcador-da-relação-do-ícone-do-ponteiro-de-seta-do-pixel-96054434.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.img {
+    width: 400px;
+    height: 350px;
+    flex-shrink: 0;
+    opacity: 0.7;
+    transition: all 600ms ease-in-out;
+}
+
+.partida {
+    opacity: 1.0;    
+}
+
+ i {
+    font-size: x-large;
+    font-weight: bolder;
+ }
+
+ footer {
+    padding: 15px;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 900;
+ }
